@@ -1,0 +1,43 @@
+/* 
+Yarra Venkata Ajay 1001863582
+Mukesh Kalyan Varma Vegiraju 1002029507
+Lakshmi Narayana Yandapalli 1001967018
+ */
+
+.hero {
+	top: 50px;
+	height: 550px;
+	background-image: url("https://clustercomp.org/2021/images/unsplash_brooklyn-bridge_header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .hero .overlay {
+	background-color: rgb(60, 95, 177);
+	position: absolute;
+	height: 100%;
+	with: 100%;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0.5;
+  }
+  .hero .content {
+	color: #fff;
+	z-index: 2;
+	text-align: center;
+  }
+  .hero .content h1 {
+	font-size: 45px;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+  }
+  .hero .content p {
+	font-family: "Montserrat", sans-serif;
+  }
+  
